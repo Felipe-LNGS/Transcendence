@@ -50,16 +50,6 @@ function loadChatCards(status) {
             );
 
             // Handle the case when no friends are found
-            if (chats.length === 0) {
-                chatContainer.innerHTML = `
-                    <div class="empty-state">
-                        <h6>Aucun ami ${status === "online" ? 'en ligne' : 'hors ligne'} pour le moment.</h6>
-                        <p class="text-muted">Veuillez revenir plus tard.</p>
-                    </div>
-                `;
-                return 0;  // Return 0 if no friends are found
-            }
-
             // Create the HTML for all friends
             let friendsHTML = '';
             let nbFriends = 0;

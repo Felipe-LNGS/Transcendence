@@ -1,218 +1,25 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 16:04+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-#: ft_transcendence/views.py:20
-
-# Page d'accueil
-msgid "Home"
-msgstr "Accueil"
-
-msgid "Choose a game mode :"
-msgstr "Choisissez un mode de jeu :"
-
-msgid "Main menu"
-msgstr "Menu principal"
-
-msgid "Tournament"
-msgstr "Tournoi"
-
-msgid "Friends"
-msgstr "Amis"
-
-msgid "Chat"
-msgstr "Discussion"
-
-msgid "Board"
-msgstr "Tableau"
-
-msgid "Settings"
-msgstr "Paramètres"
-
-msgid "Account"
-msgstr "Compte"
-
-msgid "Play online"
-msgstr "Jouer en ligne"
-
-msgid "Play local"
-msgstr "Jouer en local"
-
-msgid "DashBoard"
-msgstr "Tableau de bord"
-
-# Page Tournoi
-msgid "Tournament Mode"
-msgstr "Mode Tournoi"
-
-msgid "Tournament Status"
-msgstr "Statut du tournoi"
-
-# Page de messagerie
-msgid "Messaging"
-msgstr "Messagerie"
-
-msgid "Contacts"
-msgstr "Contacts"
-
-msgid "Online"
-msgstr "En ligne"
-
-msgid "Offline"
-msgstr "Hors ligne"
-
-
-
-msgid "Friends Management"
-msgstr "Gestion des amis"
-
-msgid "My Friends"
-msgstr "Mes amis"
-
-msgid "Requests"
-msgstr "Demandes"
-
-msgid "Search"
-msgstr "Recherche"
-
-msgid "Blocked"
-msgstr "Bloqués"
-
-msgid "Friends List"
-msgstr "Liste d'amis"
-
-msgid "Search a friend..."
-msgstr "Rechercher un ami..."
-
-msgid "Loading..."
-msgstr "Chargement..."
-
-msgid "Received Requests"
-msgstr "Demandes reçues"
-
-msgid "Pending friend requests"
-msgstr "Demandes d'amis en attente"
-
-msgid "Search Users"
-msgstr "Rechercher des utilisateurs"
-
-msgid "Search by username..."
-msgstr "Rechercher par nom d'utilisateur..."
-
-msgid "Enter at least 3 characters to search"
-msgstr "Entrez au moins 3 caractères pour rechercher"
-
-msgid "Blocked Users"
-msgstr "Utilisateurs bloqués"
-
-msgid "These users cannot contact you"
-msgstr "Ces utilisateurs ne peuvent pas vous contacter"
-
-msgid "Actions"
-msgstr "Actions"
-
-msgid "Private Message"
-msgstr "Message privé"
-
-msgid "Invite to Play"
-msgstr "Inviter à jouer"
-
-msgid "View Profile"
-msgstr "Voir le profil"
-
-msgid "Remove"
-msgstr "Supprimer"
-
-msgid "Block"
-msgstr "Bloquer"
-
-msgid "Blocked on"
-msgstr "Bloqué le"
-
-msgid "Unblock"
-msgstr "Débloquer"
-
-
-msgid "Room Code :"
-msgstr "Code de la salle :"
-
-msgid "Copy room code"
-msgstr "Copier le code de la salle"
-
-msgid "You:"
-msgstr "Vous :"
-
-msgid "loading"
-msgstr "chargement"
-
-msgid "Use"
-msgstr "Utilisez"
-
-msgid "arrow keys to move your paddle"
-msgstr "les touches fléchées pour déplacer votre raquette"
-
-
-msgid "En ligne"
-msgstr "Online"
-
-msgid "Write your message..."
-msgstr "Écrivez votre message..."
-
-msgid "Send"
-msgstr "Envoyer"
-
 
 msgid "Create a new game:"
 msgstr "Créer une nouvelle partie :"
 
 msgid "What game room would you like to join/create?"
-msgstr "Dans quelle salle de jeu souhaitez-vous rejoindre/créer ?"
-
-msgid "Enter room name ..."
-msgstr "Entrez le nom de la salle ..."
+msgstr "Quelle salle de jeu souhaitez-vous rejoindre/créer ?"
 
 msgid "Enter"
 msgstr "Entrer"
-
-
-
-
-msgid "Login"
-msgstr "Connexion"
-
-msgid "Username"
-msgstr "Nom d'utilisateur"
-
-msgid "Password"
-msgstr "Mot de passe"
-
-msgid "Need an account?"
-msgstr "Vous n'avez pas de compte ?"
-
-msgid "SIGN UP"
-msgstr "INSCRIVEZ-VOUS"
-
-msgid "OR"
-msgstr "OU"
-
-msgid "Login with 42"
-msgstr "Se connecter avec 42"
-
 
 msgid "Sign Up"
 msgstr "S'inscrire"
@@ -221,7 +28,7 @@ msgid "Username"
 msgstr "Nom d'utilisateur"
 
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 msgid "Password"
 msgstr "Mot de passe"
@@ -238,12 +45,74 @@ msgstr "Vous avez déjà un compte ?"
 msgid "LOGIN"
 msgstr "CONNEXION"
 
+msgid "Login"
+msgstr "Connexion"
+
+msgid "Need an account?"
+msgstr "Besoin d'un compte ?"
+
+msgid "SIGN UP"
+msgstr "S'INSCRIRE"
+
+msgid "OR"
+msgstr "OU"
+
+msgid "Login with 42"
+msgstr "Connexion avec 42"
+
+msgid "Messaging"
+msgstr "Messagerie"
+
+msgid "Contacts"
+msgstr "Contacts"
+
+msgid "Online"
+msgstr "En ligne"
+
+msgid "Offline"
+msgstr "Hors ligne"
+
+msgid "Room Code :"
+msgstr "Code de la salle :"
+
+msgid "Copy room code"
+msgstr "Copier le code de la salle"
+
+msgid "You:"
+msgstr "Vous :"
+
+msgid "loading"
+msgstr "chargement"
+
+msgid "Use"
+msgstr "Utilisez"
+
+msgid "and"
+msgstr "et"
+
+msgid "arrow keys to move your paddle"
+msgstr "les flèches pour déplacer votre raquette"
+
+msgid "Enter at least 3 characters to search"
+msgstr "Entrez au moins 3 caractères pour rechercher"
+
+msgid "Friends Management"
+msgstr "Gestion des amis"
+
+msgid "Friends List"
+msgstr "Liste d'amis"
+
+msgid "Received Requests"
+msgstr "Demandes reçues"
+
+msgid "Search Users"
+msgstr "Rechercher des utilisateurs"
+
+msgid "Blocked Users"
+msgstr "Utilisateurs bloqués"
 
 msgid "Profile Settings"
 msgstr "Paramètres du profil"
-
-msgid "Edit your personal information and preferences"
-msgstr "Modifiez vos informations personnelles et vos préférences"
 
 msgid "Profile"
 msgstr "Profil"
@@ -258,31 +127,25 @@ msgid "Profile Information"
 msgstr "Informations du profil"
 
 msgid "Edit your personal information"
-msgstr "Modifiez vos informations personnelles"
+msgstr "Modifier vos informations personnelles"
 
 msgid "Profile Picture"
 msgstr "Photo de profil"
-
-msgid "Username"
-msgstr "Nom d'utilisateur"
 
 msgid "Account Information"
 msgstr "Informations du compte"
 
 msgid "Edit your email and password"
-msgstr "Modifiez votre email et mot de passe"
+msgstr "Modifier votre e-mail et mot de passe"
 
 msgid "Email Address"
-msgstr "Adresse email"
+msgstr "Adresse e-mail"
 
 msgid "Current Password"
 msgstr "Mot de passe actuel"
 
 msgid "New Password"
 msgstr "Nouveau mot de passe"
-
-msgid "Confirm Password"
-msgstr "Confirmer le mot de passe"
 
 msgid "Danger Zone"
 msgstr "Zone de danger"
@@ -297,22 +160,49 @@ msgid "Display Preferences"
 msgstr "Préférences d'affichage"
 
 msgid "Customize your display preferences"
-msgstr "Personnalisez vos préférences d'affichage"
+msgstr "Personnaliser vos préférences d'affichage"
 
 msgid "Time Format"
 msgstr "Format de l'heure"
 
+msgid "12 hours (AM/PM)"
+msgstr "12 heures (AM/PM)"
+
+msgid "24 hours"
+msgstr "24 heures"
+
 msgid "Timezone"
 msgstr "Fuseau horaire"
+
+msgid "Europe/Paris (UTC+1)"
+msgstr "Europe/Paris (UTC+1)"
+
+msgid "Europe/London (UTC+0)"
+msgstr "Europe/Londres (UTC+0)"
+
+msgid "America/New York (UTC-5)"
+msgstr "Amérique/New York (UTC-5)"
+
+msgid "Asia/Tokyo (UTC+9)"
+msgstr "Asie/Tokyo (UTC+9)"
 
 msgid "Language"
 msgstr "Langue"
 
+msgid "French"
+msgstr "Français"
+
+msgid "English"
+msgstr "Anglais"
+
+msgid "Spanish"
+msgstr "Espagnol"
+
 msgid "Save"
-msgstr "Sauvegarder"
+msgstr "Enregistrer"
 
 msgid "Are you absolutely sure?"
-msgstr "Êtes-vous absolument sûr?"
+msgstr "Êtes-vous absolument sûr ?"
 
 msgid "This action is irreversible. It will permanently delete your account and all associated data from our servers."
 msgstr "Cette action est irréversible. Elle supprimera définitivement votre compte et toutes les données associées de nos serveurs."
@@ -320,5 +210,8 @@ msgstr "Cette action est irréversible. Elle supprimera définitivement votre co
 msgid "Cancel"
 msgstr "Annuler"
 
-msgid "Delete Account"
-msgstr "Supprimer le compte"
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Avatar"
+msgstr "Avatar"

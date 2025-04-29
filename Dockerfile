@@ -1,6 +1,9 @@
 # Utilisation d'une image de base Python
 FROM python:3.10-slim
 
+# Installer gettext (nécessaire pour makemessages/compilemessages Django)
+RUN apt-get update && apt-get install -y --no-install-recommends gettext && rm -rf /var/lib/apt/lists/*
+
 # Définir le répertoire de travail
 WORKDIR /app
 

@@ -66,20 +66,7 @@ function loadFriends() {
             return response.json();
         })
         .then(data => {
-            if (data.friends.length === 0) {
-                friendsContainer.innerHTML = `
-                    <div class="empty-state">
-                        <div class="empty-icon">
-                            <i class="bi bi-people"></i>
-                        </div>
-                        <h6>Aucun ami pour le moment</h6>
-                        <p class="text-muted">Recherchez des utilisateurs pour les ajouter à votre liste d'amis.</p>
-                    </div>
-                `;
-                updateFriendCounter();
-                return;
-            }
-            
+        
             let friendsHTML = '';
             data.friends.forEach(friend => {
                 friendsHTML += createFriendCardHTML(friend);
@@ -234,9 +221,9 @@ function inviteToGame(friendId) {
     .then(response => response.json())
     .then(data => {
         if (data.success) {
-            showToast('Invitation envoyée avec succès!', 'success');
+            showToast('', 'success');
         } else {
-            showToast(data.message || 'Erreur lors de l\'envoi de l\'invitation.', 'error');
+            showToast(data.message || '', 'error');
         }
     })
     .catch(error => {
@@ -247,7 +234,7 @@ function inviteToGame(friendId) {
 
 // Supprimer un ami
 function removeFriend(friendId) {
-    if (confirm('Êtes-vous sûr de vouloir supprimer cet ami ?')) {
+    if (confirm('')) {
         fetch(`/api/friends/${friendId}/remove/`, {
             method: 'POST',
             headers: {
@@ -270,14 +257,14 @@ function removeFriend(friendId) {
                     }, 300);
                 }
                 
-                showToast('Ami supprimé avec succès!', 'success');
+                showToast('', 'success');
             } else {
-                showToast(data.message || 'Erreur lors de la suppression de l\'ami.', 'error');
+                showToast(data.message || '', 'error');
             }
         })
         .catch(error => {
             console.error('Error:', error);
-            showToast('Une erreur est survenue.', 'error');
+            showToast('', 'error');
         });
     }
 }
@@ -350,11 +337,7 @@ function loadBlockedUsers() {
             if (data.blocked_users.length === 0) {
                 blockedContainer.innerHTML = `
                     <div class="empty-state">
-                        <div class="empty-icon">
-                            <i class="bi bi-shield-check"></i>
-                        </div>
-                        <h6>Aucun utilisateur bloqué</h6>
-                        <p class="text-muted">Vous n'avez bloqué personne pour le moment.</p>
+                        <p class="text-muted"></p>
                     </div>
                 `;
                 
@@ -460,18 +443,6 @@ function updateBlockedCounter() {
         const blockedCount = blockedContainer.querySelectorAll('.blocked-user-card').length;
         badge.textContent = blockedCount;
         
-        // Afficher l'état vide si aucun utilisateur bloqué
-        if (blockedCount === 0) {
-            blockedContainer.innerHTML = `
-                <div class="empty-state">
-                    <div class="empty-icon">
-                        <i class="bi bi-shield-check"></i>
-                    </div>
-                    <h6>Aucun utilisateur bloqué</h6>
-                    <p class="text-muted">Vous n'avez bloqué personne pour le moment.</p>
-                </div>
-            `;
-        }
     }
 }
 
@@ -496,7 +467,7 @@ function setupUserSearch() {
             clearTimeout(searchTimeout.timer);
             
             if (query.length < 3) {
-                searchResults.innerHTML = '<p class="text-muted">Entrez au moins 3 caractères</p>';
+                searchResults.innerHTML = '<p class="text-muted"></p>';
                 return;
             }
             
@@ -515,7 +486,7 @@ function setupUserSearch() {
                     .then(response => response.json())
                     .then(data => {
                         if (data.users.length === 0) {
-                            searchResults.innerHTML = '<p class="text-muted">Aucun utilisateur trouvé</p>';
+                            searchResults.innerHTML = '<p class="text-muted"></p>';
                             return;
                         }
                         
@@ -614,7 +585,7 @@ function loadFriendRequests() {
             }
             
             if (data.requests.length === 0) {
-                requestsContainer.innerHTML = '<p class="text-muted">Aucune demande pour le moment</p>';
+                requestsContainer.innerHTML = '<p class="text-muted"></p>';
                 return;
             }
             
@@ -743,7 +714,7 @@ function updateRequestCounter() {
         badge.textContent = requestCount;
         
         if (requestCount === 0) {
-            requestsContainer.innerHTML = '<p class="text-muted">Aucune demande pour le moment</p>';
+            requestsContainer.innerHTML = '<p class="text-muted"></p>';
         }
     }
 }
